@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карточки с контентом</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <card-component>
+        <template slot="header">
+            <h2>Собачка</h2>
+        </template>
+        <template slot="content">
+            <p>Гав гав гав гав гав</p>
+        </template>
+    </card-component>
+    <card-component>
+        <template slot="header">
+            <h2>Котик</h2>
+        </template>
+        <template slot="content">
+            <p>Мяу мяу мяу мяу мяу</p>
+            <img src="https://w.forfun.com/fetch/5f/5fae8b9ce29a10950b001db52779ca78.jpeg" alt="Изображение карточки 2">
+        </template>
+    </card-component>
+</body>
+</html>
